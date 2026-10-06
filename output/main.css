@@ -200,5 +200,28 @@ hr {
     padding: 10px;
   }
 }
+@media (min-width: 1200px) {
+  .nav-container {
+    padding: 0px 100px;
+  }
+  .nav-container .menu {
+    gap: 20px;
+  }
+  .nav-container .menu .apps {
+    font-size: 15px;
+  }
+  .nav-container .menu .apps-items.show {
+    transform: translate(-250px, 130px);
+  }
+  .nav-container .menu .slides {
+    font-size: 15px;
+  }
+  .nav-container .menu .acc-items .acc-item1 {
+    transform: translate(200px, 0px);
+  }
+  .nav-container .menu .acc-items .acc-item2 {
+    margin-left: 200px;
+  }
+}
 
 /*# sourceMappingURL=main.css.map */

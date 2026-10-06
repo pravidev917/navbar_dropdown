@@ -8,6 +8,9 @@ const accounts=document.querySelector(".accounts")
 const acc_item=document.querySelector(".acc-items")
 menuicon.addEventListener("click", function(){
     menu.classList.toggle("show");
+    apps_item.classList.remove("show");
+    slide_item.classList.remove("show");
+    acc_item.classList.remove("show");
 });
 apps.addEventListener("click", function(){
     apps_item.classList.toggle("show");
